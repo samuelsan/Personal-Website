@@ -10,26 +10,46 @@
         <title>Samuel San's Personal Website</title>
         <meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
 		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/style.css">
 		<!-- skin -->
 		<link rel="stylesheet" href="skin/default.css">
+
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<!-- <script src="https://maps.google.com/maps/api/js?sensor=true"></script> -->
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+    <!-- <script src="contactform/contactform.js"></script> -->
+
     </head>
-	 
+
     <body>
+
 		<section id="header" class="appear"></section>
+
 		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
 			 <div class="container">
 				<div class="navbar-header">
+
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="fa fa-bars color-white"></span>
 					</button>
-					<h1><a class="navbar-brand" href="Resume.pdf" data-0="line-height:90px;" data-300="line-height:50px;">	
-					&nbsp Résumé &nbsp
-					<i class="fa fa-download"></i>
+					<!-- <h1><a class="navbar-brand" href="Resume.pdf" data-0="line-height:90px;" data-300="line-height:50px;"> -->
+					<!-- &nbsp Résumé &nbsp -->
+					<!-- <i class="fa fa-download"></i> -->
 					</a></h1>
 				</div>
 				<div class="navbar-collapse collapse">
@@ -40,9 +60,10 @@
 				</div><!--/.navbar-collapse -->
 			</div>
 		</div>
+			 		                                           <script src="js/main.js"></script>
 
 		<section id="section-home"class="featured">
-			<div class="container"> 
+			<div class="container">
 				<div class="row mar-bot40">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="align-center">
@@ -51,16 +72,17 @@
                         <p></p><br>
 							<h2 class="slogan">Samuel San</h2>
 							<p>
-							Software Engineering Student @ Univerity of Waterloo <br>
+                                Third Year Software Engineering Student @ University of Waterloo. <br>
+                                Passionate about solving big and small problems! Currently diving into data, algorithms, and machine learning. Looking for Summer 2018 Internships.
 							</p>
 							<br>
 							<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
 								<div class="col-sm-12 align-center">
 				                    <ul class="social-network social-circle">
 				                        <li><a href="https://github.com/samuelsan" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
-				                  		<li><a href="Resume.pdf" class="icoGoogle" title="Resume"><i class="fa fa-download"></i></a></li>
+				                  		<!-- <li><a href="Resume.pdf" class="icoGoogle" title="Resume"><i class="fa fa-download"></i></a></li> -->
 				                        <li><a href="https://www.linkedin.com/in/samuelsan" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-				                    </ul>				
+				                    </ul>
 								</div>
 							</div>
 						</div>
@@ -68,11 +90,11 @@
 				</div>
 			</div>
 		</section>
-						
+
 		<!-- section works -->
 		<section id="section-works" class="section appear clearfix">
 			<div class="container">
-				
+
 				<div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
@@ -80,12 +102,36 @@
 						</div>
 					</div>
 				</div>
-					
+
                         <div class="row">
                           <div class="col-md-12">
                             <div class="row">
                               <div class="portfolio-items isotopeWrapper clearfix" id="3">
-					
+
+                              <article class="col-md-4 isotopeItem webdesign">
+									<div class="portfolio-item">
+										<img src="img/portfolio/web_scraper.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="https://github.com/samuelsan/Wealth-Simple-Robot">Web Scraper Robot</a></h5>
+												<p style="font-size: 16px"> Web Scraper Robot that extracts personal data from my investment portfolio and sends me notifications with the updated stats</p>
+											 </div>
+										 </div>
+									</div>
+                              </article>
+
+                              <article class="col-md-4 isotopeItem webdesign">
+									<div class="portfolio-item">
+										<img src="img/portfolio/backbone.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="https://github.com/samuelsan">Backbone Chart<a/></h5>
+												<p style="font-size: 16px">Designed a chart that displays and sorts information</p>
+											 </div>
+										 </div>
+									</div>
+                              </article>
+
 					            <article class="col-md-4 isotopeItem webdesign">
 									<div class="portfolio-item">
 										<img src="img/portfolio/trip_booster.jpg" alt="" />
@@ -93,7 +139,7 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/EngHack2017">Trip Booster</a></h5>
 												<p style="font-size: 16px"> Android mobile app that reroutes your original trip from points A to B to visit places of interests along the way</p>
-											 </div>										   
+											 </div>
 										 </div>
 									</div>
                                 </article>
@@ -105,7 +151,7 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/gify">Gify</a></h5>
 												<p style="font-size: 16px"> Natural language processing chat bot that replies in Gifs</p>
-											 </div>										   
+											 </div>
 										 </div>
 									</div>
                                 </article>
@@ -116,12 +162,12 @@
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h5><a href="https://devpost.com/software/cloud-kitchen">Sous-Chef</a></h5>
-												<p style="font-size: 16px">Voice-activated personal kitchen assistant built on Amazon Alexa</p>											
-											 </div>										   
+												<p style="font-size: 16px">Voice-activated personal kitchen assistant built on Amazon Alexa</p>
+											 </div>
 										 </div>
 									</div>
                                 </article>
-                                
+
                                 <article class="col-md-4 isotopeItem photography">
 									<div class="portfolio-item">
 										<img src="img/portfolio/mint_tree.png" alt="" />
@@ -129,7 +175,7 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/YHacks-2016">Mint Tree</a></h5>
 												<p style="font-size: 16px"> Interactive application that helps students manage their budget</p>
-											 </div>										   
+											 </div>
 										 </div>
 									</div>
                                 </article>
@@ -140,8 +186,8 @@
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/Carousel">Carousel</a></h5>
-												<p style="font-size: 16px">An interactive storyline game with fantasy undertones</p>		
-											</div>										   
+												<p style="font-size: 16px">An interactive storyline game with fantasy undertones</p>
+											</div>
 										 </div>
 									</div>
                                 </article>
@@ -153,7 +199,7 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/Image-Compressor">Image Compressor</a></h5>
 												<p style="font-size: 16px">Applied K-means clustering to compress original image by a factor of 6</p>
-											 </div>										   
+											 </div>
 										 </div>
 									</div>
                                 </article>
@@ -165,7 +211,7 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/BHMM">BHMM</a></h5>
 												<p style="font-size: 16px">Real estate rental app for landlords and tenants</p>
-											</div>						   
+											</div>
 										 </div>
 									</div>
                                 </article>
@@ -176,8 +222,8 @@
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h5><a href="https://github.com/uWaterloo/watIsOurTeamName">Classifieds</a></h5>
-												<p style="font-size: 16px"> Buy and Sell widget created for Waterloo's Student Portal</p>	
-											</div>										   
+												<p style="font-size: 16px"> Buy and Sell widget created for Waterloo's Student Portal</p>
+											</div>
 										 </div>
 									</div>
                                 </article>
@@ -188,8 +234,8 @@
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/SE-101-Lab-2">Floaty the Floatr</a></h5>
-												<p style="font-size: 16px"> Helicopter game built in C for LaunchPad Tiva TM4C123 Microcontroller</p>	
-											 </div>										   
+												<p style="font-size: 16px"> Helicopter game built in C for LaunchPad Tiva TM4C123 Microcontroller</p>
+											 </div>
 										 </div>
 									</div>
                                 </article>
@@ -201,39 +247,22 @@
 											<div class="folio-info">
 												<h5><a href="https://github.com/samuelsan/Flappy-Bird-Clone">Flappy Bird Clone</a></h5>
 												<p style="font-size: 16px">A web app clone of Flappy Bird</p>
-											</div>										   
+											</div>
 										 </div>
 									</div>
                                 </article>
                                 </div>
-                                        
+
 							</div>
-                                     
 
 							</div>
                         </div>
-				
+
 			</div>
 		</section>
 
 	</section>
-	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
-
-	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="js/jquery.isotope.min.js"></script>
-	<script src="js/jquery.nicescroll.min.js"></script>
-	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="js/skrollr.min.js"></script>		
-	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.appear.js"></script>
-    <script src="js/main.js"></script>
-    <script src="contactform/contactform.js"></script>
-    
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+x
 	</body>
 </html>
